@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelSetUp : MonoBehaviour
 {
@@ -48,5 +49,11 @@ public class LevelSetUp : MonoBehaviour
     public void DisplayHints()
     {
         hints_count.GetComponent<Text>().text = hints.ToString();
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene(1);
+        // save the positions?
     }
 }

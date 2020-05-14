@@ -1,10 +1,10 @@
-<Properties StartupConfiguration="{74C93935-4F47-F3E5-6C23-8826AB7955D3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapButton.cs">
+﻿<Properties StartupConfiguration="{41A4F486-85F6-2EB5-5AC7-B576F23373C8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelSetUp.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelSetUp.cs" Line="29" Column="8" />
-      <File FileName="Assets/Scripts/HandleTextFile.cs" Line="65" Column="29" />
-      <File FileName="Assets/Scripts/Menu.cs" Line="11" Column="9" />
-      <File FileName="Assets/Scripts/Map.cs" Line="69" Column="2" />
+      <File FileName="Assets/Scripts/LevelSetUp.cs" Line="53" Column="1" />
+      <File FileName="Assets/Scripts/HandleTextFile.cs" />
+      <File FileName="Assets/Scripts/Menu.cs" />
+      <File FileName="Assets/Scripts/Map.cs" />
       <File FileName="Assets/Scripts/MapButton.cs" Line="49" Column="2" />
     </Files>
     <Pads>
@@ -17,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4c6b077-566c-4488-af9a-c45278b9a09e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f126855f-d902-4b55-b17e-3e099f40cb95" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
