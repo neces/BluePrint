@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &13970755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 38781565}
   - component: {fileID: 38781564}
   - component: {fileID: 38781563}
+  - component: {fileID: 38781566}
   m_Layer: 5
   m_Name: Clue L1
   m_TagString: Untagged
@@ -252,7 +253,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -264,7 +265,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 38781564}
   m_OnClick:
     m_PersistentCalls:
@@ -304,6 +305,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38781561}
   m_CullTransparentMesh: 0
+--- !u!114 &38781566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38781561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 38781561}
+  clueArrow: {fileID: 1203276071}
+  clueNumber: {fileID: 13970752}
+  direction: left
+  number: 1
 --- !u!1 &89392241
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &97530394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -526,7 +544,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &110509064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -547,6 +565,7 @@ GameObject:
   - component: {fileID: 112444427}
   - component: {fileID: 112444426}
   - component: {fileID: 112444425}
+  - component: {fileID: 112444428}
   m_Layer: 5
   m_Name: Clue R2
   m_TagString: Untagged
@@ -598,7 +617,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -610,7 +629,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 112444426}
   m_OnClick:
     m_PersistentCalls:
@@ -650,6 +669,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112444423}
   m_CullTransparentMesh: 0
+--- !u!114 &112444428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112444423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 112444423}
+  clueArrow: {fileID: 146056552}
+  clueNumber: {fileID: 394640345}
+  direction: right
+  number: 2
 --- !u!1 &136912331
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &142045743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -944,7 +980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &257117467
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -965,6 +1001,7 @@ GameObject:
   - component: {fileID: 262132262}
   - component: {fileID: 262132261}
   - component: {fileID: 262132260}
+  - component: {fileID: 262132263}
   m_Layer: 5
   m_Name: Cell Fo2
   m_TagString: Untagged
@@ -1012,7 +1049,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1031,7 +1068,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 262132261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 262132263}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &262132261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,7 +1093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1067,6 +1115,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262132258}
   m_CullTransparentMesh: 0
+--- !u!114 &262132263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262132258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 262132258}
+  cellNumber: {fileID: 1331297492}
+  row: fourth
+  column: 2
 --- !u!1 &272592918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1215,7 @@ GameObject:
   - component: {fileID: 279498460}
   - component: {fileID: 279498459}
   - component: {fileID: 279498458}
+  - component: {fileID: 279498461}
   m_Layer: 5
   m_Name: Cell Fo3
   m_TagString: Untagged
@@ -1198,7 +1263,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1217,7 +1282,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 279498459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 279498461}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &279498459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,7 +1307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1253,6 +1329,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279498456}
   m_CullTransparentMesh: 0
+--- !u!114 &279498461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279498456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 279498456}
+  cellNumber: {fileID: 1476541644}
+  row: fourth
+  column: 3
 --- !u!1 &293854431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1557,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &348877826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1614,7 +1706,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &394640348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1691,7 +1783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &464198567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1712,6 +1804,7 @@ GameObject:
   - component: {fileID: 464972873}
   - component: {fileID: 464972872}
   - component: {fileID: 464972871}
+  - component: {fileID: 464972874}
   m_Layer: 5
   m_Name: Cell T3
   m_TagString: Untagged
@@ -1759,7 +1852,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1778,7 +1871,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 464972872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 464972874}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &464972872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1792,7 +1896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1814,6 +1918,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464972869}
   m_CullTransparentMesh: 0
+--- !u!114 &464972874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464972869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 464972869}
+  cellNumber: {fileID: 1825024867}
+  row: third
+  column: 3
 --- !u!1 &510864732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,7 +2002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &510864735
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1986,6 +2106,7 @@ GameObject:
   - component: {fileID: 524995656}
   - component: {fileID: 524995655}
   - component: {fileID: 524995654}
+  - component: {fileID: 524995657}
   m_Layer: 5
   m_Name: Cell F3
   m_TagString: Untagged
@@ -2033,7 +2154,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2052,7 +2173,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 524995655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 524995657}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &524995655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,7 +2198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.50884664, b: 0.254539, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2088,6 +2220,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524995652}
   m_CullTransparentMesh: 0
+--- !u!114 &524995657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524995652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 524995652}
+  cellNumber: {fileID: 598702254}
+  row: first
+  column: 3
 --- !u!1 &534628520
 GameObject:
   m_ObjectHideFlags: 0
@@ -2172,6 +2320,7 @@ GameObject:
   - component: {fileID: 565734733}
   - component: {fileID: 565734732}
   - component: {fileID: 565734731}
+  - component: {fileID: 565734734}
   m_Layer: 5
   m_Name: Clue R1
   m_TagString: Untagged
@@ -2223,7 +2372,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2235,7 +2384,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 565734732}
   m_OnClick:
     m_PersistentCalls:
@@ -2275,6 +2424,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565734729}
   m_CullTransparentMesh: 0
+--- !u!114 &565734734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565734729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 565734729}
+  clueArrow: {fileID: 2065345921}
+  clueNumber: {fileID: 580816867}
+  direction: right
+  number: 1
 --- !u!1 &573829425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,10 +2706,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f750db7e7ed8e460385f3900304b87cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level_name: {fileID: 2051882768}
-  grid_size: {fileID: 136912331}
+  levelName: {fileID: 2051882768}
+  gridSize: {fileID: 136912331}
   difficulty: {fileID: 706803710}
-  hints_count: {fileID: 89392241}
+  hintsCount: {fileID: 89392241}
   hints: 3
 --- !u!1 &580816867
 GameObject:
@@ -2613,7 +2779,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &580816870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2634,6 +2800,7 @@ GameObject:
   - component: {fileID: 593010168}
   - component: {fileID: 593010167}
   - component: {fileID: 593010166}
+  - component: {fileID: 593010169}
   m_Layer: 5
   m_Name: Cell T2
   m_TagString: Untagged
@@ -2681,7 +2848,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2700,7 +2867,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 593010167}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 593010169}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &593010167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2714,7 +2892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2736,6 +2914,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593010164}
   m_CullTransparentMesh: 0
+--- !u!114 &593010169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593010164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 593010164}
+  cellNumber: {fileID: 692022566}
+  row: third
+  column: 2
 --- !u!1 &598702254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2804,7 +2998,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &598702257
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2825,6 +3019,7 @@ GameObject:
   - component: {fileID: 600385262}
   - component: {fileID: 600385261}
   - component: {fileID: 600385260}
+  - component: {fileID: 600385263}
   m_Layer: 5
   m_Name: Clue U3
   m_TagString: Untagged
@@ -2876,7 +3071,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2888,7 +3083,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 600385261}
   m_OnClick:
     m_PersistentCalls:
@@ -2928,6 +3123,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 600385258}
   m_CullTransparentMesh: 0
+--- !u!114 &600385263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600385258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 600385258}
+  clueArrow: {fileID: 573829425}
+  clueNumber: {fileID: 1074479676}
+  direction: up
+  number: 3
 --- !u!1 &611238849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,6 +3224,7 @@ GameObject:
   - component: {fileID: 652926118}
   - component: {fileID: 652926117}
   - component: {fileID: 652926116}
+  - component: {fileID: 652926119}
   m_Layer: 5
   m_Name: Clue U4
   m_TagString: Untagged
@@ -3063,7 +3276,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3075,7 +3288,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 652926117}
   m_OnClick:
     m_PersistentCalls:
@@ -3115,6 +3328,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652926114}
   m_CullTransparentMesh: 0
+--- !u!114 &652926119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652926114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 652926114}
+  clueArrow: {fileID: 1720917470}
+  clueNumber: {fileID: 1932875635}
+  direction: up
+  number: 4
 --- !u!1 &659612981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3127,6 +3357,7 @@ GameObject:
   - component: {fileID: 659612985}
   - component: {fileID: 659612984}
   - component: {fileID: 659612983}
+  - component: {fileID: 659612986}
   m_Layer: 5
   m_Name: Clue D4
   m_TagString: Untagged
@@ -3178,7 +3409,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3190,7 +3421,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 659612984}
   m_OnClick:
     m_PersistentCalls:
@@ -3230,6 +3461,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659612981}
   m_CullTransparentMesh: 0
+--- !u!114 &659612986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659612981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 659612981}
+  clueArrow: {fileID: 576549964}
+  clueNumber: {fileID: 1838733466}
+  direction: down
+  number: 4
 --- !u!1 &692022566
 GameObject:
   m_ObjectHideFlags: 0
@@ -3298,7 +3546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &692022569
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3452,7 +3700,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &726983101
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3673,7 +3921,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &773022514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3760,6 +4008,7 @@ GameObject:
   - component: {fileID: 830462837}
   - component: {fileID: 830462836}
   - component: {fileID: 830462835}
+  - component: {fileID: 830462838}
   m_Layer: 5
   m_Name: Clue U2
   m_TagString: Untagged
@@ -3811,7 +4060,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3823,7 +4072,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 830462836}
   m_OnClick:
     m_PersistentCalls:
@@ -3863,6 +4112,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830462833}
   m_CullTransparentMesh: 0
+--- !u!114 &830462838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830462833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 830462833}
+  clueArrow: {fileID: 764618180}
+  clueNumber: {fileID: 773022511}
+  direction: up
+  number: 2
 --- !u!1 &845865252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3947,6 +4213,7 @@ GameObject:
   - component: {fileID: 887697197}
   - component: {fileID: 887697196}
   - component: {fileID: 887697195}
+  - component: {fileID: 887697198}
   m_Layer: 5
   m_Name: Clue L2
   m_TagString: Untagged
@@ -3998,7 +4265,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4010,7 +4277,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 887697196}
   m_OnClick:
     m_PersistentCalls:
@@ -4050,6 +4317,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887697193}
   m_CullTransparentMesh: 0
+--- !u!114 &887697198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887697193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 887697193}
+  clueArrow: {fileID: 1203276071}
+  clueNumber: {fileID: 13970752}
+  direction: left
+  number: 2
 --- !u!1 &930463471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4206,6 +4490,7 @@ GameObject:
   - component: {fileID: 999510294}
   - component: {fileID: 999510293}
   - component: {fileID: 999510292}
+  - component: {fileID: 999510295}
   m_Layer: 5
   m_Name: Cell Fo1
   m_TagString: Untagged
@@ -4253,7 +4538,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -4272,7 +4557,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 999510293}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 999510295}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &999510293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4286,7 +4582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4308,6 +4604,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999510290}
   m_CullTransparentMesh: 0
+--- !u!114 &999510295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999510290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 999510290}
+  cellNumber: {fileID: 726983098}
+  row: fourth
+  column: 1
 --- !u!1 &1017324662
 GameObject:
   m_ObjectHideFlags: 0
@@ -4317,6 +4629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1017324663}
+  - component: {fileID: 1017324664}
   m_Layer: 5
   m_Name: Cells
   m_TagString: Untagged
@@ -4359,6 +4672,18 @@ RectTransform:
   m_AnchoredPosition: {x: 8, y: -40}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1017324664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017324662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ae647f3f0f542879caf3d901bd3483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1039763663
 GameObject:
   m_ObjectHideFlags: 0
@@ -4427,7 +4752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1039763666
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4448,6 +4773,7 @@ GameObject:
   - component: {fileID: 1060046535}
   - component: {fileID: 1060046534}
   - component: {fileID: 1060046533}
+  - component: {fileID: 1060046536}
   m_Layer: 5
   m_Name: Cell F4
   m_TagString: Untagged
@@ -4495,7 +4821,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -4514,7 +4840,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1060046534}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1060046536}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1060046534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4528,7 +4865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4, g: 0.1764706, b: 0.5686275, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4550,6 +4887,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060046531}
   m_CullTransparentMesh: 0
+--- !u!114 &1060046536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060046531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1060046531}
+  cellNumber: {fileID: 1539000510}
+  row: first
+  column: 4
 --- !u!1 &1074479676
 GameObject:
   m_ObjectHideFlags: 0
@@ -4618,7 +4971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1074479679
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4695,7 +5048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1147410768
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4716,6 +5069,7 @@ GameObject:
   - component: {fileID: 1179853729}
   - component: {fileID: 1179853728}
   - component: {fileID: 1179853727}
+  - component: {fileID: 1179853730}
   m_Layer: 5
   m_Name: Clue L3
   m_TagString: Untagged
@@ -4767,7 +5121,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4779,7 +5133,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1179853728}
   m_OnClick:
     m_PersistentCalls:
@@ -4819,6 +5173,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179853725}
   m_CullTransparentMesh: 0
+--- !u!114 &1179853730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179853725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 1179853725}
+  clueArrow: {fileID: 1249438469}
+  clueNumber: {fileID: 1529403657}
+  direction: left
+  number: 3
 --- !u!1 &1203276071
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,6 +5346,7 @@ GameObject:
   - component: {fileID: 1269265214}
   - component: {fileID: 1269265213}
   - component: {fileID: 1269265212}
+  - component: {fileID: 1269265215}
   m_Layer: 5
   m_Name: Clue U1
   m_TagString: Untagged
@@ -5026,7 +5398,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5038,7 +5410,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1269265213}
   m_OnClick:
     m_PersistentCalls:
@@ -5078,6 +5450,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269265210}
   m_CullTransparentMesh: 0
+--- !u!114 &1269265215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269265210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 1269265210}
+  clueArrow: {fileID: 2133172321}
+  clueNumber: {fileID: 110509061}
+  direction: up
+  number: 1
 --- !u!1 &1270440721
 GameObject:
   m_ObjectHideFlags: 0
@@ -5090,6 +5479,7 @@ GameObject:
   - component: {fileID: 1270440725}
   - component: {fileID: 1270440724}
   - component: {fileID: 1270440723}
+  - component: {fileID: 1270440726}
   m_Layer: 5
   m_Name: Cell T4
   m_TagString: Untagged
@@ -5137,7 +5527,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -5156,7 +5546,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1270440724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1270440726}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1270440724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5170,7 +5571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5192,6 +5593,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270440721}
   m_CullTransparentMesh: 0
+--- !u!114 &1270440726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270440721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1270440721}
+  cellNumber: {fileID: 1147410765}
+  row: third
+  column: 4
 --- !u!1 &1270815177
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,6 +5746,7 @@ GameObject:
   - component: {fileID: 1295061080}
   - component: {fileID: 1295061079}
   - component: {fileID: 1295061078}
+  - component: {fileID: 1295061081}
   m_Layer: 5
   m_Name: Clue R4
   m_TagString: Untagged
@@ -5380,7 +5798,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5392,7 +5810,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1295061079}
   m_OnClick:
     m_PersistentCalls:
@@ -5432,6 +5850,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295061076}
   m_CullTransparentMesh: 0
+--- !u!114 &1295061081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295061076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 1295061076}
+  clueArrow: {fileID: 534628520}
+  clueNumber: {fileID: 1676690450}
+  direction: right
+  number: 4
 --- !u!1 &1301173505
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,6 +5879,7 @@ GameObject:
   - component: {fileID: 1301173509}
   - component: {fileID: 1301173508}
   - component: {fileID: 1301173507}
+  - component: {fileID: 1301173510}
   m_Layer: 5
   m_Name: Clue D2
   m_TagString: Untagged
@@ -5495,7 +5931,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5507,7 +5943,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1301173508}
   m_OnClick:
     m_PersistentCalls:
@@ -5547,6 +5983,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301173505}
   m_CullTransparentMesh: 0
+--- !u!114 &1301173510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301173505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 1301173505}
+  clueArrow: {fileID: 384274729}
+  clueNumber: {fileID: 1586562792}
+  direction: down
+  number: 2
 --- !u!1 &1331297492
 GameObject:
   m_ObjectHideFlags: 0
@@ -5615,7 +6068,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1331297495
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5636,6 +6089,7 @@ GameObject:
   - component: {fileID: 1362992461}
   - component: {fileID: 1362992460}
   - component: {fileID: 1362992459}
+  - component: {fileID: 1362992462}
   m_Layer: 5
   m_Name: Cell S3
   m_TagString: Untagged
@@ -5683,7 +6137,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -5702,7 +6156,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1362992460}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1362992462}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1362992460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5716,7 +6181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5738,6 +6203,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362992457}
   m_CullTransparentMesh: 0
+--- !u!114 &1362992462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362992457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1362992457}
+  cellNumber: {fileID: 257117464}
+  row: second
+  column: 3
 --- !u!1 &1406387256
 GameObject:
   m_ObjectHideFlags: 0
@@ -5750,6 +6231,7 @@ GameObject:
   - component: {fileID: 1406387260}
   - component: {fileID: 1406387259}
   - component: {fileID: 1406387258}
+  - component: {fileID: 1406387261}
   m_Layer: 5
   m_Name: Cell F2
   m_TagString: Untagged
@@ -5797,7 +6279,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -5816,7 +6298,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1406387259}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1406387261}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1406387259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5830,7 +6323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.43137255, b: 0.50980395, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5852,6 +6345,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406387256}
   m_CullTransparentMesh: 0
+--- !u!114 &1406387261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406387256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1406387256}
+  cellNumber: {fileID: 1692178270}
+  row: first
+  column: 2
 --- !u!1 &1446863745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,7 +6429,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1446863748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5997,7 +6506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1476541647
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6018,6 +6527,7 @@ GameObject:
   - component: {fileID: 1496571405}
   - component: {fileID: 1496571404}
   - component: {fileID: 1496571403}
+  - component: {fileID: 1496571406}
   m_Layer: 5
   m_Name: Clue L4
   m_TagString: Untagged
@@ -6069,7 +6579,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -6081,7 +6591,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1496571404}
   m_OnClick:
     m_PersistentCalls:
@@ -6121,6 +6631,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496571401}
   m_CullTransparentMesh: 0
+--- !u!114 &1496571406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496571401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 1496571401}
+  clueArrow: {fileID: 930463471}
+  clueNumber: {fileID: 510864732}
+  direction: left
+  number: 4
 --- !u!1 &1504437064
 GameObject:
   m_ObjectHideFlags: 0
@@ -6377,7 +6904,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1529403660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6454,7 +6981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1539000513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6531,7 +7058,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1559361994
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6680,7 +7207,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1586562795
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6829,7 +7356,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1676690453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6906,7 +7433,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 
 --- !u!222 &1681764127
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6983,7 +7510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 
 --- !u!222 &1692178273
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7004,6 +7531,7 @@ GameObject:
   - component: {fileID: 1706146413}
   - component: {fileID: 1706146412}
   - component: {fileID: 1706146411}
+  - component: {fileID: 1706146414}
   m_Layer: 5
   m_Name: Cell S1
   m_TagString: Untagged
@@ -7051,7 +7579,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -7070,7 +7598,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1706146412}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1706146414}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1706146412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7084,7 +7623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5529412, g: 0.7764706, b: 0.24705882, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7106,6 +7645,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706146409}
   m_CullTransparentMesh: 0
+--- !u!114 &1706146414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706146409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1706146409}
+  cellNumber: {fileID: 142045740}
+  row: second
+  column: 1
 --- !u!1 &1709629141
 GameObject:
   m_ObjectHideFlags: 0
@@ -7190,6 +7745,7 @@ GameObject:
   - component: {fileID: 1713734324}
   - component: {fileID: 1713734323}
   - component: {fileID: 1713734322}
+  - component: {fileID: 1713734325}
   m_Layer: 5
   m_Name: Cell S4
   m_TagString: Untagged
@@ -7237,7 +7793,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -7256,7 +7812,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1713734323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1713734325}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1713734323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7270,7 +7837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7292,6 +7859,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713734320}
   m_CullTransparentMesh: 0
+--- !u!114 &1713734325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713734320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1713734320}
+  cellNumber: {fileID: 97530391}
+  row: second
+  column: 4
 --- !u!1 &1720917470
 GameObject:
   m_ObjectHideFlags: 0
@@ -7376,6 +7959,7 @@ GameObject:
   - component: {fileID: 1751888528}
   - component: {fileID: 1751888527}
   - component: {fileID: 1751888526}
+  - component: {fileID: 1751888529}
   m_Layer: 5
   m_Name: Cell S2
   m_TagString: Untagged
@@ -7423,7 +8007,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -7442,7 +8026,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1751888527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1751888529}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1751888527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7456,7 +8051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8039216, g: 0, b: 0.5137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7478,6 +8073,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751888524}
   m_CullTransparentMesh: 0
+--- !u!114 &1751888529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751888524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 1751888524}
+  cellNumber: {fileID: 1938039655}
+  row: second
+  column: 2
 --- !u!1 &1767785710
 GameObject:
   m_ObjectHideFlags: 0
@@ -7562,6 +8173,7 @@ GameObject:
   - component: {fileID: 1824066434}
   - component: {fileID: 1824066433}
   - component: {fileID: 1824066432}
+  - component: {fileID: 1824066435}
   m_Layer: 5
   m_Name: Clue D1
   m_TagString: Untagged
@@ -7613,7 +8225,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -7625,7 +8237,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1824066433}
   m_OnClick:
     m_PersistentCalls:
@@ -7665,6 +8277,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824066430}
   m_CullTransparentMesh: 0
+--- !u!114 &1824066435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824066430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 1824066430}
+  clueArrow: {fileID: 845865252}
+  clueNumber: {fileID: 1039763663}
+  direction: down
+  number: 1
 --- !u!1 &1825024867
 GameObject:
   m_ObjectHideFlags: 0
@@ -7733,7 +8362,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1825024870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7810,7 +8439,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1838733469
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7887,7 +8516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1849900803
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8056,7 +8685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1932875638
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8133,7 +8762,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!222 &1938039658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8154,6 +8783,7 @@ GameObject:
   - component: {fileID: 2008305669}
   - component: {fileID: 2008305668}
   - component: {fileID: 2008305667}
+  - component: {fileID: 2008305670}
   m_Layer: 5
   m_Name: Cell T1
   m_TagString: Untagged
@@ -8201,7 +8831,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -8220,7 +8850,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2008305668}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2008305670}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2008305668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8234,7 +8875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8256,6 +8897,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008305665}
   m_CullTransparentMesh: 0
+--- !u!114 &2008305670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008305665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 2008305665}
+  cellNumber: {fileID: 464198564}
+  row: third
+  column: 1
 --- !u!1 &2016805493
 GameObject:
   m_ObjectHideFlags: 0
@@ -8345,6 +9002,7 @@ GameObject:
   - component: {fileID: 2040604926}
   - component: {fileID: 2040604925}
   - component: {fileID: 2040604924}
+  - component: {fileID: 2040604927}
   m_Layer: 5
   m_Name: Cell Fo4
   m_TagString: Untagged
@@ -8392,7 +9050,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -8411,7 +9069,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2040604925}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2040604927}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2040604925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8425,7 +9094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.30113026, b: 0.6264765, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8447,6 +9116,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040604922}
   m_CullTransparentMesh: 0
+--- !u!114 &2040604927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040604922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 2040604922}
+  cellNumber: {fileID: 1446863745}
+  row: fourth
+  column: 4
 --- !u!1 &2051882768
 GameObject:
   m_ObjectHideFlags: 0
@@ -8752,6 +9437,7 @@ GameObject:
   - component: {fileID: 2111663189}
   - component: {fileID: 2111663188}
   - component: {fileID: 2111663187}
+  - component: {fileID: 2111663190}
   m_Layer: 5
   m_Name: Cell F1
   m_TagString: Untagged
@@ -8799,7 +9485,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0.20392157, b: 0.4528302, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -8818,7 +9504,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2111663188}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2111663190}
+        m_MethodName: ChangeCell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2111663188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8832,7 +9529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.7366816, b: 0.8490566, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8854,6 +9551,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111663185}
   m_CullTransparentMesh: 0
+--- !u!114 &2111663190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111663185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c039beb1215c4456fb041269e4581f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellButton: {fileID: 2111663185}
+  cellNumber: {fileID: 1681764124}
+  row: first
+  column: 1
 --- !u!1 &2113477616
 GameObject:
   m_ObjectHideFlags: 0
@@ -8866,6 +9579,7 @@ GameObject:
   - component: {fileID: 2113477620}
   - component: {fileID: 2113477619}
   - component: {fileID: 2113477618}
+  - component: {fileID: 2113477621}
   m_Layer: 5
   m_Name: Clue R3
   m_TagString: Untagged
@@ -8917,7 +9631,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -8929,7 +9643,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2113477619}
   m_OnClick:
     m_PersistentCalls:
@@ -8969,6 +9683,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113477616}
   m_CullTransparentMesh: 0
+--- !u!114 &2113477621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113477616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 2113477616}
+  clueArrow: {fileID: 757495576}
+  clueNumber: {fileID: 348877823}
+  direction: right
+  number: 3
 --- !u!1 &2133172321
 GameObject:
   m_ObjectHideFlags: 0
@@ -9053,6 +9784,7 @@ GameObject:
   - component: {fileID: 2134528953}
   - component: {fileID: 2134528952}
   - component: {fileID: 2134528951}
+  - component: {fileID: 2134528954}
   m_Layer: 5
   m_Name: Clue D3
   m_TagString: Untagged
@@ -9104,7 +9836,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -9116,7 +9848,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 2134528952}
   m_OnClick:
     m_PersistentCalls:
@@ -9156,3 +9888,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134528949}
   m_CullTransparentMesh: 0
+--- !u!114 &2134528954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134528949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf782705be5924917bc2f515c047e58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clueButton: {fileID: 2134528949}
+  clueArrow: {fileID: 272592918}
+  clueNumber: {fileID: 1849900800}
+  direction: down
+  number: 3

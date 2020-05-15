@@ -22,7 +22,7 @@ public class MapButton : MonoBehaviour
     {
         var status = Map.mapUnlocked[levelName - 1];
 
-        if (status == "0") // level is locked
+        if (status == "0") // Level is locked
         {
             levelText.GetComponent<Text>().text = " ";
             levelLocked.SetActive(true);
@@ -30,7 +30,7 @@ public class MapButton : MonoBehaviour
             levelButton.GetComponent<Button>().interactable = false;
         }
 
-        else if (status == "1") // level is unlocked
+        else if (status == "1") // Level is unlocked
         {
             levelText.GetComponent<Text>().text = levelName.ToString();
             levelLocked.SetActive(false);
@@ -38,7 +38,7 @@ public class MapButton : MonoBehaviour
             levelButton.GetComponent<Button>().interactable = true;
         }
 
-        else if (status == "2") // level is completed
+        else if (status == "2") // Level is completed
         {
             levelText.GetComponent<Text>().text = " ";
             levelLocked.SetActive(false);

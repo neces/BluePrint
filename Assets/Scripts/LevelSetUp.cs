@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelSetUp : MonoBehaviour
 {
-    public GameObject level_name;
-    public GameObject grid_size;
+    public GameObject levelName;
+    public GameObject gridSize;
     public GameObject difficulty;
 
-    public GameObject hints_count;
+    public GameObject hintsCount;
     public int hints = 3;
 
 
@@ -31,14 +31,14 @@ public class LevelSetUp : MonoBehaviour
 
     public void DisplayLevelName()
     {
-        string name = "BluePrint " + HandleTextFile.lvl_name;
-        level_name.GetComponent<Text>().text = name;
+        string name = "BluePrint " + HandleTextFile.lvlName;
+        levelName.GetComponent<Text>().text = name;
     }
 
     public void DisplayGridSize()
     {
         string grid = "Grid " + HandleTextFile.size;
-        grid_size.GetComponent<Text>().text = grid;
+        gridSize.GetComponent<Text>().text = grid;
     }
 
     public void DisplayDifficulty()
@@ -48,12 +48,13 @@ public class LevelSetUp : MonoBehaviour
 
     public void DisplayHints()
     {
-        hints_count.GetComponent<Text>().text = hints.ToString();
+        hintsCount.GetComponent<Text>().text = hints.ToString();
     }
 
     public void BackButton()
     {
+        // get a way to set the name for the scene
         SceneManager.LoadScene(1);
-        // save the positions?
+        // save the positions? get all the arrays and write them to the file
     }
 }

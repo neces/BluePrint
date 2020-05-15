@@ -46,7 +46,7 @@ public class Map : MonoBehaviour
     public void LevelLoad(int lvl)
     {
         HandleTextFile.ReadString(lvl);
-        Debug.Log(HandleTextFile.lvl_name);
+        Debug.Log(HandleTextFile.lvlName);
         Debug.Log(HandleTextFile.size);
         Debug.Log(HandleTextFile.diff);
 
