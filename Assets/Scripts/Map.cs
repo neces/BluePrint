@@ -53,17 +53,17 @@ public class Map : MonoBehaviour
         // depends on size loads a different grid size
         if (HandleTextFile.size == "4")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Grid 4");
         }
 
         else if (HandleTextFile.size == "5")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Grid 5");
         }
 
         else if (HandleTextFile.size == "6")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Grid 6");
         }
     }
 }
