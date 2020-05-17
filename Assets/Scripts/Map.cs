@@ -42,7 +42,7 @@ public class Map : MonoBehaviour
         File.WriteAllText("Assets/Levels/Map.txt", writeMap);
     }
 
-    public static void LevelLoad(int lvl)
+    public void LevelLoad(int lvl)
     {
         HandleTextFile.ReadString(lvl);
         Debug.Log(HandleTextFile.lvlName);

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class GenerateLevel : MonoBehaviour
@@ -45,7 +46,31 @@ public class GenerateLevel : MonoBehaviour
         GenerateGrid(gridSize);
         CalculateClues(gridSize, difficulty);
         SaveToFile();
-        Map.LevelLoad(100);
+        SceneLoad();
+    }
+
+    public static void SceneLoad()
+    {
+        HandleTextFile.ReadString(100);
+        Debug.Log(HandleTextFile.lvlName);
+        Debug.Log(HandleTextFile.size);
+        Debug.Log(HandleTextFile.diff);
+
+        // Depending on size of the grid this function loads a scene
+        if (HandleTextFile.size == "4")
+        {
+            SceneManager.LoadScene("Grid 4");
+        }
+
+        else if (HandleTextFile.size == "5")
+        {
+            SceneManager.LoadScene("Grid 5");
+        }
+
+        else if (HandleTextFile.size == "6")
+        {
+            SceneManager.LoadScene("Grid 6");
+        }
     }
 
     public static void GenerateGrid(int size)

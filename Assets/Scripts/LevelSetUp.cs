@@ -23,8 +23,18 @@ public class LevelSetUp : MonoBehaviour
 
     public void DisplayLevelName()
     {
-        string name = "BluePrint " + HandleTextFile.lvlName;
-        levelName.GetComponent<Text>().text = name;
+        string name;
+        if (HandleTextFile.lvlName == "100")
+        {
+            name = "BluePrint Unlimimited";
+            levelName.GetComponent<Text>().text = name;
+        }
+
+        else
+        {
+            name = "BluePrint " + HandleTextFile.lvlName;
+            levelName.GetComponent<Text>().text = name;
+        }
     }
 
     public void DisplayGridSize()
@@ -40,11 +50,27 @@ public class LevelSetUp : MonoBehaviour
 
     public void BackButton()
     {
-        SceneManager.LoadScene("Map");
+        if (HandleTextFile.lvlName == "100")
+        {
+            SceneManager.LoadScene("Menu");
+        }
+
+        else
+        {
+            SceneManager.LoadScene("Map");
+        }
     }
 
     public void LevelCompletedButton()
     {
-        SceneManager.LoadScene("Map");
+        if (HandleTextFile.lvlName == "100")
+        {
+            GenerateLevel.LevelGenerate();
+        }
+
+        else
+        {
+            SceneManager.LoadScene("Map");
+        }
     }
 }

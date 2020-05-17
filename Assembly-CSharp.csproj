@@ -76,6 +76,7 @@
     <None Include="Assets\Levels\Map.txt" />
     <None Include="Assets\Levels\2.txt" />
     <None Include="Assets\Levels\100.txt" />
+    <None Include="Assets\Levels\4.txt" />
     <None Include="Assets\Levels\3.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/nejacesnik/Documents/BluePrint/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

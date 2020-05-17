@@ -318,8 +318,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clueButton: {fileID: 38781561}
-  clueArrow: {fileID: 1203276071}
-  clueNumber: {fileID: 13970752}
+  clueArrow: {fileID: 611238849}
+  clueNumber: {fileID: 1559361991}
   direction: left
   number: 1
 --- !u!1 &89392241

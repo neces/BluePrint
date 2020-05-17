@@ -139,12 +139,21 @@ public class CellButton : MonoBehaviour
 
         if (LevelSetUp.cellsCompleted == (gridSize*gridSize))
         {
-            // if level name is 100, do this instead
-            Map.mapUnlocked[level - 1] = "2";
-            Map.saveMap();
-            levelComplete.SetActive(true);
-            LevelSetUp.cellsCompleted = 0;
-            Hints.hints++;
+            if (level == 100)
+            {
+                levelComplete.SetActive(true);
+                Hints.hints = Hints.hints + 2;
+                // timer? reset the values?
+            }
+
+            else
+            {
+                Map.mapUnlocked[level - 1] = "2";
+                Map.saveMap();
+                levelComplete.SetActive(true);
+                LevelSetUp.cellsCompleted = 0;
+                Hints.hints = Hints.hints + 2;
+            }
         }
     }
 
