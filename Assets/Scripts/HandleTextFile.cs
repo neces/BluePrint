@@ -29,23 +29,11 @@ public class HandleTextFile : MonoBehaviour
     public static string[] solvedFifth;
     public static string[] solvedSixth;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public static void ReadString(int level)
     {
         string path = "Assets/Levels/" + level + ".txt";
 
-        //Read the text from directly from the test.txt file
+        // Read the text from directly from the .txt file
         StreamReader reader = new StreamReader(path);
         var fileContents = reader.ReadToEnd();
         reader.Close();
@@ -55,13 +43,8 @@ public class HandleTextFile : MonoBehaviour
         string[] lvl = text[3].Split(","[0]);
 
         lvlName = lvl[0];
-        //Debug.Log(lvl[0]);
-
         size = lvl[1];
-        //Debug.Log(lvl[1]);
-
         diff = lvl[2];
-        //Debug.Log(lvl[2]);
 
         up = text[6].Split(","[0]);
         down = text[7].Split(","[0]);

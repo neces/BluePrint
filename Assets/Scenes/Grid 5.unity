@@ -909,6 +909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 120058580}
   cellNumber: {fileID: 431438032}
+  levelComplete: {fileID: 981519996}
   row: fourth
   column: 5
 --- !u!1 &130963530
@@ -1304,6 +1305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 159910150}
   cellNumber: {fileID: 636012484}
+  levelComplete: {fileID: 981519996}
   row: third
   column: 4
 --- !u!1 &167199246
@@ -1744,6 +1746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 307671243}
   cellNumber: {fileID: 1506971860}
+  levelComplete: {fileID: 981519996}
   row: fifth
   column: 3
 --- !u!1 &315289521
@@ -2019,6 +2022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 315684239}
   cellNumber: {fileID: 621553527}
+  levelComplete: {fileID: 981519996}
   row: second
   column: 1
 --- !u!1 &322876796
@@ -2161,6 +2165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 322876796}
   cellNumber: {fileID: 1176402476}
+  levelComplete: {fileID: 981519996}
   row: second
   column: 4
 --- !u!1 &346188131
@@ -2303,6 +2308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 346188131}
   cellNumber: {fileID: 83885073}
+  levelComplete: {fileID: 981519996}
   row: second
   column: 5
 --- !u!1 &348948074
@@ -2578,6 +2584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 349638450}
   cellNumber: {fileID: 9243514}
+  levelComplete: {fileID: 981519996}
   row: fourth
   column: 4
 --- !u!1 &350590151
@@ -2720,6 +2727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 350590151}
   cellNumber: {fileID: 656790851}
+  levelComplete: {fileID: 981519996}
   row: fifth
   column: 1
 --- !u!1 &351214527
@@ -2939,6 +2947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 357438632}
   cellNumber: {fileID: 1344495954}
+  levelComplete: {fileID: 981519996}
   row: third
   column: 3
 --- !u!1 &367896735
@@ -3808,6 +3817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 521395219}
   cellNumber: {fileID: 1368622828}
+  levelComplete: {fileID: 981519996}
   row: fifth
   column: 2
 --- !u!1 &524379996
@@ -4149,6 +4159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 564277092}
   cellNumber: {fileID: 213959103}
+  levelComplete: {fileID: 981519996}
   row: first
   column: 3
 --- !u!1 &588981009
@@ -4291,6 +4302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 588981009}
   cellNumber: {fileID: 1179750496}
+  levelComplete: {fileID: 981519996}
   row: second
   column: 3
 --- !u!1 &598427172
@@ -4364,6 +4376,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598427172}
+  m_CullTransparentMesh: 0
+--- !u!1 &612828047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 612828048}
+  - component: {fileID: 612828050}
+  - component: {fileID: 612828049}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &612828048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612828047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 981519997}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &612828049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612828047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8fa40f2d2124b40dd88872aafb1fd9a9, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '<b>Congratulations!</b>
+
+    You have successfully completed this level'
+--- !u!222 &612828050
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612828047}
   m_CullTransparentMesh: 0
 --- !u!1 &618098390
 GameObject:
@@ -4505,6 +4596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 618098390}
   cellNumber: {fileID: 967212574}
+  levelComplete: {fileID: 981519996}
   row: first
   column: 1
 --- !u!1 &621553527
@@ -5022,6 +5114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 658107048}
   cellNumber: {fileID: 1039599425}
+  levelComplete: {fileID: 981519996}
   row: fifth
   column: 4
 --- !u!1 &672201614
@@ -5451,6 +5544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 752970805}
   cellNumber: {fileID: 351214527}
+  levelComplete: {fileID: 981519996}
   row: first
   column: 2
 --- !u!1 &767056303
@@ -5593,6 +5687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 767056303}
   cellNumber: {fileID: 2030616115}
+  levelComplete: {fileID: 981519996}
   row: second
   column: 2
 --- !u!1 &790958973
@@ -6217,6 +6312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 883408110}
   cellNumber: {fileID: 1251780025}
+  levelComplete: {fileID: 981519996}
   row: third
   column: 5
 --- !u!1 &889964017
@@ -6513,6 +6609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 903615314}
   cellNumber: {fileID: 1569083251}
+  levelComplete: {fileID: 981519996}
   row: fifth
   column: 5
 --- !u!1 &921509528
@@ -6740,6 +6837,132 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967212574}
+  m_CullTransparentMesh: 0
+--- !u!1 &981519996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981519997}
+  - component: {fileID: 981520000}
+  - component: {fileID: 981519999}
+  - component: {fileID: 981519998}
+  m_Layer: 5
+  m_Name: LevelCompletedButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &981519997
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981519996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2078849791}
+  - {fileID: 612828048}
+  m_Father: {fileID: 1768585298}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 8, y: -40}
+  m_SizeDelta: {x: 633.55, y: 325.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &981519998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981519996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 981519999}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1768585299}
+        m_MethodName: LevelCompletedButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &981519999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981519996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &981520000
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981519996}
   m_CullTransparentMesh: 0
 --- !u!1 &985921729
 GameObject:
@@ -7261,6 +7484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1048991973}
   cellNumber: {fileID: 392177157}
+  levelComplete: {fileID: 981519996}
   row: fourth
   column: 1
 --- !u!1 &1099286686
@@ -8334,6 +8558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1301107755}
   cellNumber: {fileID: 985921729}
+  levelComplete: {fileID: 981519996}
   row: fourth
   column: 3
 --- !u!1 &1327850630
@@ -9625,6 +9850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1494347517}
   cellNumber: {fileID: 1594569954}
+  levelComplete: {fileID: 981519996}
   row: third
   column: 2
 --- !u!1 &1494415241
@@ -10214,6 +10440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1592536168}
   cellNumber: {fileID: 672201614}
+  levelComplete: {fileID: 981519996}
   row: first
   column: 4
 --- !u!1 &1594569954
@@ -10433,6 +10660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1649464390}
   cellNumber: {fileID: 87097560}
+  levelComplete: {fileID: 981519996}
   row: third
   column: 1
 --- !u!1 &1677252074
@@ -10647,6 +10875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1749484831}
   cellNumber: {fileID: 1427387781}
+  levelComplete: {fileID: 981519996}
   row: fourth
   column: 2
 --- !u!1 &1751879677
@@ -10733,6 +10962,7 @@ GameObject:
   - component: {fileID: 1758940676}
   - component: {fileID: 1758940675}
   - component: {fileID: 1758940674}
+  - component: {fileID: 1758940677}
   m_Layer: 5
   m_Name: HintsButton
   m_TagString: Untagged
@@ -10801,7 +11031,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1758940675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1758940677}
+        m_MethodName: HintsOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1758940675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10837,6 +11078,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758940672}
   m_CullTransparentMesh: 0
+--- !u!114 &1758940677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758940672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81be573b490e4919a7da6c3c6112a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hintsCount: {fileID: 2107290877}
 --- !u!1 &1768585297
 GameObject:
   m_ObjectHideFlags: 0
@@ -10878,6 +11132,7 @@ RectTransform:
   - {fileID: 159354321}
   - {fileID: 442226388}
   - {fileID: 524379997}
+  - {fileID: 981519997}
   m_Father: {fileID: 2097941003}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10901,8 +11156,7 @@ MonoBehaviour:
   levelName: {fileID: 367896735}
   gridSize: {fileID: 371720582}
   difficulty: {fileID: 1988345256}
-  hintsCount: {fileID: 2107290877}
-  hints: 3
+  levelCompleted: {fileID: 981519996}
 --- !u!114 &1768585300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12353,6 +12607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 2007647899}
   cellNumber: {fileID: 999577571}
+  levelComplete: {fileID: 981519996}
   row: first
   column: 5
 --- !u!1 &2030616115
@@ -12764,6 +13019,78 @@ MonoBehaviour:
   clueNumber: {fileID: 167199246}
   direction: right
   number: 1
+--- !u!1 &2078849790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2078849791}
+  - component: {fileID: 2078849793}
+  - component: {fileID: 2078849792}
+  m_Layer: 5
+  m_Name: BackgroundFade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2078849791
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078849790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 981519997}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -8, y: 36.700012}
+  m_SizeDelta: {x: 116.45001, y: 1008.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2078849792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078849790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.47058824}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &2078849793
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078849790}
+  m_CullTransparentMesh: 0
 --- !u!1 &2097941000
 GameObject:
   m_ObjectHideFlags: 0
@@ -12881,8 +13208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.800003, y: -26.900002}
-  m_SizeDelta: {x: -92.4, y: -77.7}
+  m_AnchoredPosition: {x: 24.499998, y: -26.900002}
+  m_SizeDelta: {x: -149, y: -77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107290879
 MonoBehaviour:
@@ -12909,7 +13236,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

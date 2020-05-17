@@ -356,8 +356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.800003, y: -26.900002}
-  m_SizeDelta: {x: -92.4, y: -77.7}
+  m_AnchoredPosition: {x: 24.0025, y: -26.900002}
+  m_SizeDelta: {x: -149.995, y: -77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &89392243
 MonoBehaviour:
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 48
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1129,6 +1129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 262132258}
   cellNumber: {fileID: 1331297492}
+  levelComplete: {fileID: 1442456278}
   row: fourth
   column: 2
 --- !u!1 &272592918
@@ -1343,8 +1344,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 279498456}
   cellNumber: {fileID: 1476541644}
+  levelComplete: {fileID: 1442456278}
   row: fourth
   column: 3
+--- !u!1 &289272966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 289272967}
+  - component: {fileID: 289272969}
+  - component: {fileID: 289272968}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &289272967
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289272966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1442456279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &289272968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289272966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8fa40f2d2124b40dd88872aafb1fd9a9, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '<b>Congratulations!</b>
+
+    You have successfully completed this level'
+--- !u!222 &289272969
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289272966}
+  m_CullTransparentMesh: 0
 --- !u!1 &293854431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,6 +2013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 464972869}
   cellNumber: {fileID: 1825024867}
+  levelComplete: {fileID: 1442456278}
   row: third
   column: 3
 --- !u!1 &510864732
@@ -2234,6 +2316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 524995652}
   cellNumber: {fileID: 598702254}
+  levelComplete: {fileID: 1442456278}
   row: first
   column: 3
 --- !u!1 &534628520
@@ -2626,6 +2709,7 @@ RectTransform:
   - {fileID: 1886485866}
   - {fileID: 1017324663}
   - {fileID: 1916264827}
+  - {fileID: 1442456279}
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2709,8 +2793,7 @@ MonoBehaviour:
   levelName: {fileID: 2051882768}
   gridSize: {fileID: 136912331}
   difficulty: {fileID: 706803710}
-  hintsCount: {fileID: 89392241}
-  hints: 3
+  levelCompleted: {fileID: 1442456278}
 --- !u!1 &580816867
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +3011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 593010164}
   cellNumber: {fileID: 692022566}
+  levelComplete: {fileID: 1442456278}
   row: third
   column: 2
 --- !u!1 &598702254
@@ -4618,6 +4702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 999510290}
   cellNumber: {fileID: 726983098}
+  levelComplete: {fileID: 1442456278}
   row: fourth
   column: 1
 --- !u!1 &1017324662
@@ -4629,7 +4714,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1017324663}
-  - component: {fileID: 1017324664}
   m_Layer: 5
   m_Name: Cells
   m_TagString: Untagged
@@ -4672,18 +4756,6 @@ RectTransform:
   m_AnchoredPosition: {x: 8, y: -40}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1017324664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017324662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2ae647f3f0f542879caf3d901bd3483, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1039763663
 GameObject:
   m_ObjectHideFlags: 0
@@ -4901,6 +4973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1060046531}
   cellNumber: {fileID: 1539000510}
+  levelComplete: {fileID: 1442456278}
   row: first
   column: 4
 --- !u!1 &1074479676
@@ -5607,6 +5680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1270440721}
   cellNumber: {fileID: 1147410765}
+  levelComplete: {fileID: 1442456278}
   row: third
   column: 4
 --- !u!1 &1270815177
@@ -6217,6 +6291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1362992457}
   cellNumber: {fileID: 257117464}
+  levelComplete: {fileID: 1442456278}
   row: second
   column: 3
 --- !u!1 &1406387256
@@ -6359,8 +6434,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1406387256}
   cellNumber: {fileID: 1692178270}
+  levelComplete: {fileID: 1442456278}
   row: first
   column: 2
+--- !u!1 &1442456278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442456279}
+  - component: {fileID: 1442456282}
+  - component: {fileID: 1442456281}
+  - component: {fileID: 1442456280}
+  m_Layer: 5
+  m_Name: LevelCompletedButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1442456279
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442456278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1712430087}
+  - {fileID: 289272967}
+  m_Father: {fileID: 579507902}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 8, y: -40.00001}
+  m_SizeDelta: {x: 633.55, y: 325.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1442456280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442456278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1442456281}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 579507906}
+        m_MethodName: LevelCompletedButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1442456281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442456278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1442456282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442456278}
+  m_CullTransparentMesh: 0
 --- !u!1 &1446863745
 GameObject:
   m_ObjectHideFlags: 0
@@ -6660,6 +6862,7 @@ GameObject:
   - component: {fileID: 1504437068}
   - component: {fileID: 1504437067}
   - component: {fileID: 1504437066}
+  - component: {fileID: 1504437069}
   m_Layer: 5
   m_Name: HintsButton
   m_TagString: Untagged
@@ -6728,7 +6931,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1504437067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1504437069}
+        m_MethodName: HintsOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1504437067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6764,6 +6978,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504437064}
   m_CullTransparentMesh: 0
+--- !u!114 &1504437069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504437064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81be573b490e4919a7da6c3c6112a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hintsCount: {fileID: 89392241}
 --- !u!1 &1515655594
 GameObject:
   m_ObjectHideFlags: 0
@@ -7659,6 +7886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1706146409}
   cellNumber: {fileID: 142045740}
+  levelComplete: {fileID: 1442456278}
   row: second
   column: 1
 --- !u!1 &1709629141
@@ -7732,6 +7960,78 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709629141}
+  m_CullTransparentMesh: 0
+--- !u!1 &1712430086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712430087}
+  - component: {fileID: 1712430089}
+  - component: {fileID: 1712430088}
+  m_Layer: 5
+  m_Name: BackgroundFade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1712430087
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712430086}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1442456279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -8, y: 36.700012}
+  m_SizeDelta: {x: 116.45001, y: 1008.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1712430088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712430086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.47058824}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1712430089
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712430086}
   m_CullTransparentMesh: 0
 --- !u!1 &1713734320
 GameObject:
@@ -7873,6 +8173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1713734320}
   cellNumber: {fileID: 97530391}
+  levelComplete: {fileID: 1442456278}
   row: second
   column: 4
 --- !u!1 &1720917470
@@ -8087,6 +8388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 1751888524}
   cellNumber: {fileID: 1938039655}
+  levelComplete: {fileID: 1442456278}
   row: second
   column: 2
 --- !u!1 &1767785710
@@ -8911,6 +9213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 2008305665}
   cellNumber: {fileID: 464198564}
+  levelComplete: {fileID: 1442456278}
   row: third
   column: 1
 --- !u!1 &2016805493
@@ -9130,6 +9433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 2040604922}
   cellNumber: {fileID: 1446863745}
+  levelComplete: {fileID: 1442456278}
   row: fourth
   column: 4
 --- !u!1 &2051882768
@@ -9565,6 +9869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellButton: {fileID: 2111663185}
   cellNumber: {fileID: 1681764124}
+  levelComplete: {fileID: 1442456278}
   row: first
   column: 1
 --- !u!1 &2113477616

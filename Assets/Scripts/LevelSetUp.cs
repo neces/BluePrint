@@ -9,25 +9,17 @@ public class LevelSetUp : MonoBehaviour
     public GameObject levelName;
     public GameObject gridSize;
     public GameObject difficulty;
+    public GameObject levelCompleted;
 
-    public GameObject hintsCount;
-    public int hints = 3;
+    public static int cellsCompleted;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         DisplayLevelName();
         DisplayGridSize();
         DisplayDifficulty();
-        DisplayHints();
+        levelCompleted.SetActive(false);
     }
-
-    //// Update is called once per frame
-    //void Update()
-    //{
-
-    //}
 
     public void DisplayLevelName()
     {
@@ -46,15 +38,13 @@ public class LevelSetUp : MonoBehaviour
         difficulty.GetComponent<Text>().text = HandleTextFile.diff;
     }
 
-    public void DisplayHints()
-    {
-        hintsCount.GetComponent<Text>().text = hints.ToString();
-    }
-
     public void BackButton()
     {
-        // get a way to set the name for the scene
-        SceneManager.LoadScene(1);
-        // save the positions? get all the arrays and write them to the file
+        SceneManager.LoadScene("Map");
+    }
+
+    public void LevelCompletedButton()
+    {
+        SceneManager.LoadScene("Map");
     }
 }

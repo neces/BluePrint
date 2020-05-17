@@ -64,17 +64,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CellButton.cs" />
-    <Compile Include="Assets\Scripts\ChangeCellNumber.cs" />
     <Compile Include="Assets\Scripts\ClueButton.cs" />
+    <Compile Include="Assets\Scripts\GenerateLevel.cs" />
     <Compile Include="Assets\Scripts\HandleTextFile.cs" />
+    <Compile Include="Assets\Scripts\Hints.cs" />
     <Compile Include="Assets\Scripts\LevelSetUp.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\MapButton.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <None Include="Assets\Levels\1.txt" />
     <None Include="Assets\Levels\Map.txt" />
-    <None Include="Assets\Levels\3???.txt" />
     <None Include="Assets\Levels\2.txt" />
+    <None Include="Assets\Levels\100.txt" />
+    <None Include="Assets\Levels\3.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/nejacesnik/Documents/BluePrint/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

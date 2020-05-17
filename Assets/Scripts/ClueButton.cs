@@ -19,12 +19,6 @@ public class ClueButton : MonoBehaviour
         DisplayClue(direction, number);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void DisplayClue(string clueDirection, int clueNo)
     {
         string clue = "";

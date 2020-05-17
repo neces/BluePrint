@@ -34,7 +34,6 @@ public class Map : MonoBehaviour
         // When levelCompleted 3, 6, 9... new section opens
         // with every update also save?
         // also calls mapSave
-
     }
 
     public static void saveMap()
@@ -43,14 +42,14 @@ public class Map : MonoBehaviour
         File.WriteAllText("Assets/Levels/Map.txt", writeMap);
     }
 
-    public void LevelLoad(int lvl)
+    public static void LevelLoad(int lvl)
     {
         HandleTextFile.ReadString(lvl);
         Debug.Log(HandleTextFile.lvlName);
         Debug.Log(HandleTextFile.size);
         Debug.Log(HandleTextFile.diff);
 
-        // depends on size loads a different grid size
+        // Depending on size of the grid this function loads a scene
         if (HandleTextFile.size == "4")
         {
             SceneManager.LoadScene("Grid 4");
@@ -65,5 +64,10 @@ public class Map : MonoBehaviour
         {
             SceneManager.LoadScene("Grid 6");
         }
+    }
+
+    public void backButton()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
