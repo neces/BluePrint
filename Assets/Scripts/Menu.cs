@@ -16,8 +16,9 @@ public class Menu : MonoBehaviour
         GenerateLevel.LevelGenerate();
     }
 
-    public void Settings()
+    public void PlayTutorial()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Tutorial");
+        HandleTextFile.ReadString(101);
     }
 }

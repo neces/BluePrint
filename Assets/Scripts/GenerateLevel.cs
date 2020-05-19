@@ -10,7 +10,8 @@ public class GenerateLevel : MonoBehaviour
 {
     public static int levelName = 100;
     public static int gridSize = 4;
-    public static string difficulty = "Medium";
+    public static string[] allDifficulties = {"Easy", "Medium", "Hard"};
+    public static string difficulty;
 
     public static int[,] grid = new int[,]
     {
@@ -42,7 +43,8 @@ public class GenerateLevel : MonoBehaviour
 
     public static void LevelGenerate()
     {
-        //at the end of previous game, levelName, Gridsize and difficulty are changed
+        gridSize = Random.Range(4, 6);
+        difficulty = allDifficulties[Random.Range(0, 3)];
         GenerateGrid(gridSize);
         CalculateClues(gridSize, difficulty);
         SaveToFile();
@@ -52,9 +54,6 @@ public class GenerateLevel : MonoBehaviour
     public static void SceneLoad()
     {
         HandleTextFile.ReadString(100);
-        Debug.Log(HandleTextFile.lvlName);
-        Debug.Log(HandleTextFile.size);
-        Debug.Log(HandleTextFile.diff);
 
         // Depending on size of the grid this function loads a scene
         if (HandleTextFile.size == "4")
@@ -136,6 +135,7 @@ public class GenerateLevel : MonoBehaviour
         int direction;
         int number;
         int totalClues = 0;
+        Array.Clear(clues, 0, clues.Length);
 
         switch (difficulty)
         {
@@ -246,13 +246,13 @@ public class GenerateLevel : MonoBehaviour
 
     public static void SaveToFile()
     {
-        string description = "Level Details: Unlimited\n" + "If there is no clues/filled out cells at that position set to 0.\n";
+        string description = "Level Details: Unlimited\n" + "If there are no clues or filled out cells at that position, set to 0.\n";
         string lineBreak = "___________\n";
         string levelDetails = levelName + "," + gridSize + "," + difficulty + "\n";
 
         string cluesGrid = "Clues (Up, Down, Left, Right of the grid)\n" + GetArrayString(clues);
         string emptyGrid = "Empty Grid (First to sixth row, if there are some cells already filled out)\n" + GetArrayString(empty);
-        string solvedGrid = "Solved Grid(First to sixth row, if grid smaller set those columns/ rows to all 0)\n" + GetArrayString(grid);
+        string solvedGrid = "Solved Grid (First to sixth row, if grid smaller set those columns/rows to all 0)\n" + GetArrayString(grid);
 
         File.WriteAllText("Assets/Levels/100.txt", description + lineBreak + levelDetails + lineBreak + cluesGrid + lineBreak + emptyGrid + lineBreak + solvedGrid);
     }

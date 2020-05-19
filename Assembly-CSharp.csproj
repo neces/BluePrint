@@ -72,12 +72,26 @@
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\MapButton.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\Tutorial.cs" />
     <None Include="Assets\Levels\1.txt" />
     <None Include="Assets\Levels\Map.txt" />
+    <None Include="Assets\Levels\11.txt" />
+    <None Include="Assets\Levels\8.txt" />
+    <None Include="Assets\Levels\9.txt" />
     <None Include="Assets\Levels\2.txt" />
     <None Include="Assets\Levels\100.txt" />
     <None Include="Assets\Levels\4.txt" />
     <None Include="Assets\Levels\3.txt" />
+    <None Include="Assets\Levels\7.txt" />
+    <None Include="Assets\Levels\10.txt" />
+    <None Include="Assets\Levels\12.txt" />
+    <None Include="Assets\Levels\14.txt" />
+    <None Include="Assets\Levels\15.txt" />
+    <None Include="Assets\Levels\101.txt" />
+    <None Include="Assets\Levels\13.txt" />
+    <None Include="Assets\Levels\6.txt" />
+    <None Include="Assets\Levels\102.txt" />
+    <None Include="Assets\Levels\5.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/nejacesnik/Documents/BluePrint/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

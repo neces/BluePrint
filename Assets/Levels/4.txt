@@ -1,5 +1,5 @@
 Level Details
-If there is no clues/filled out cells at that position set to 0. There should be always 6 entries in each row
+If there are no clues or filled out cells at that position, set to 0.
 ___________
 4,5,Easy
 ___________
@@ -9,7 +9,7 @@ Clues (Up, Down, Left, Right of the grid)
 0,0,5,0,0,0
 4,4,0,0,0,0
 ___________
-Empty Grid (First to sixth row, if there is some cells filled out)
+Empty Grid (First to sixth row, if there are some cells already filled out)
 0,0,0,0,0,0
 0,0,0,0,0,0
 0,0,0,0,0,0

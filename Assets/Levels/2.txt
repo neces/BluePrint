@@ -1,5 +1,5 @@
 Level Details
-If there is no clues/filled out cells at that position set to 0.
+If there are no clues or filled out cells at that position, set to 0.
 ___________
 2,4,Easy
 ___________

@@ -8,7 +8,7 @@ public class Map : MonoBehaviour
 {
 
     public static string[] mapUnlocked;
-    static int levelsCompleted = 0;
+    public static int levelsCompleted = 0;
 
     public static void initialiseMap()
     {
@@ -27,13 +27,36 @@ public class Map : MonoBehaviour
         mapUnlocked = fileContents.Split(","[0]);
     }
 
-    public void mapUpdate()
+    public static void updateMap()
     {
-        // when backbutton on a level clicked or level completed
-        // with every level completed levelsCompleted++
-        // When levelCompleted 3, 6, 9... new section opens
-        // with every update also save?
-        // also calls mapSave
+        // if the story here go scenes as well, otherwise put just in one if
+        if (levelsCompleted == 3)
+        {
+            mapUnlocked[levelsCompleted] = "1";
+            mapUnlocked[levelsCompleted + 1] = "1";
+            mapUnlocked[levelsCompleted + 2] = "1";
+        }
+
+        else if (levelsCompleted == 6)
+        {
+            mapUnlocked[levelsCompleted] = "1";
+            mapUnlocked[levelsCompleted + 1] = "1";
+            mapUnlocked[levelsCompleted + 2] = "1";
+        }
+
+        else if (levelsCompleted == 9)
+        {
+            mapUnlocked[levelsCompleted] = "1";
+            mapUnlocked[levelsCompleted + 1] = "1";
+            mapUnlocked[levelsCompleted + 2] = "1";
+        }
+
+        else if (levelsCompleted == 12)
+        {
+            mapUnlocked[levelsCompleted] = "1";
+            mapUnlocked[levelsCompleted + 1] = "1";
+            mapUnlocked[levelsCompleted + 2] = "1";
+        }
     }
 
     public static void saveMap()
@@ -45,9 +68,6 @@ public class Map : MonoBehaviour
     public void LevelLoad(int lvl)
     {
         HandleTextFile.ReadString(lvl);
-        Debug.Log(HandleTextFile.lvlName);
-        Debug.Log(HandleTextFile.size);
-        Debug.Log(HandleTextFile.diff);
 
         // Depending on size of the grid this function loads a scene
         if (HandleTextFile.size == "4")

@@ -34,9 +34,9 @@ public class CellButton : MonoBehaviour
         else
         {
             LevelSetUp.cellsCompleted++;
-            Debug.Log(LevelSetUp.cellsCompleted);
-            Debug.Log("Zacetek");
             cellNumber.GetComponent<Text>().text = cell;
+            cellNumber.GetComponent<Text>().color = new Color(0, 0.203f, 0.450f, 0.5f);
+            ChangeColor(cell);
             cellButton.GetComponent<Button>().interactable = false;
         }
     }
@@ -50,7 +50,9 @@ public class CellButton : MonoBehaviour
         {
             string value = GetSolvedCell(row, column);
             cellNumber.GetComponent<Text>().text = value;
+            cellNumber.GetComponent<Text>().color = new Color(0, 0.203f, 0.450f, 0.5f);
             cellNumber.SetActive(true);
+            ChangeColor(value);
             cellButton.GetComponent<Button>().interactable = false;
             Hints.hintsOn = false;
             Hints.hints = Hints.hints - 1;
@@ -143,17 +145,23 @@ public class CellButton : MonoBehaviour
             {
                 levelComplete.SetActive(true);
                 Hints.hints = Hints.hints + 2;
-                // timer? reset the values?
             }
 
             else
             {
                 Map.mapUnlocked[level - 1] = "2";
+                Map.levelsCompleted++;
+                Map.updateMap();
                 Map.saveMap();
                 levelComplete.SetActive(true);
                 LevelSetUp.cellsCompleted = 0;
                 Hints.hints = Hints.hints + 2;
             }
+        }
+
+        if (HandleTextFile.lvlName == "102" && LevelSetUp.cellsCompleted == 8)
+        {
+            levelComplete.SetActive(true);
         }
     }
 
@@ -166,9 +174,12 @@ public class CellButton : MonoBehaviour
         cb.normalColor = new Color(r, g, b);
         cb.highlightedColor = new Color(r, g, b);
         cb.pressedColor = new Color(r, g, b);
+        cb.disabledColor = new Color(r, g, b);
         button.colors = cb;
     }
 
+    // Translated from RGB Hex to RGB Normalised decimal with Instalabls Color Calculator
+    // http://doc.instantreality.org/tools/color_calculator/
     void ChangeColor(string value)
     {
         switch (value)
@@ -186,7 +197,7 @@ public class CellButton : MonoBehaviour
                 ParsingColor(0.980f, 0.509f, 0.254f); // Orange
                 break;
             case "4":
-                ParsingColor(0.4f, 0.176f, 0.568f); // Purple
+                ParsingColor(0.439f, 0.188f, 0.631f); // Purple
                 break;
             case "5":
                 ParsingColor(0.552f, 0.776f, 0.247f); // Green

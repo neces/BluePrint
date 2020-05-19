@@ -1,0 +1,26 @@
+Level Details
+If there are no clues or filled out cells at that position, set to 0.
+___________
+14,5,Hard
+___________
+Clues (Up, Down, Left, Right of the grid)
+1,2,0,4,0,0
+2,4,0,1,0,0
+0,2,0,0,2,0
+4,0,3,0,0,0
+___________
+Empty Grid (First to sixth row, if there are some cells already filled out)
+0,0,0,2,0,0
+0,0,3,0,0,0
+0,0,5,0,0,0
+0,0,0,0,0,0
+0,0,0,0,0,0
+0,0,0,0,0,0
+___________
+Solved Grid (First to sixth row, if grid smaller set those columns/rows to all 0)
+5,3,4,2,1,0
+2,5,3,1,4,0
+1,4,5,3,2,0
+3,2,1,4,5,0
+4,1,2,5,3,0
+0,0,0,0,0,0

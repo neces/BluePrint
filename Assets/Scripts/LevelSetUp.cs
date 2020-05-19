@@ -30,6 +30,12 @@ public class LevelSetUp : MonoBehaviour
             levelName.GetComponent<Text>().text = name;
         }
 
+        else if (HandleTextFile.lvlName == "101" || HandleTextFile.lvlName == "102")
+        {
+            name = "BluePrint";
+            levelName.GetComponent<Text>().text = name;
+        }
+
         else
         {
             name = "BluePrint " + HandleTextFile.lvlName;
@@ -50,9 +56,10 @@ public class LevelSetUp : MonoBehaviour
 
     public void BackButton()
     {
-        if (HandleTextFile.lvlName == "100")
+        if (HandleTextFile.lvlName == "100" || HandleTextFile.lvlName == "101" || HandleTextFile.lvlName == "101")
         {
             SceneManager.LoadScene("Menu");
+
         }
 
         else
@@ -66,6 +73,11 @@ public class LevelSetUp : MonoBehaviour
         if (HandleTextFile.lvlName == "100")
         {
             GenerateLevel.LevelGenerate();
+        }
+
+        else if (HandleTextFile.lvlName == "102")
+        {
+            SceneManager.LoadScene("Menu");
         }
 
         else
