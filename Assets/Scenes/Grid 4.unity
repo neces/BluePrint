@@ -112,6 +112,138 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &13609172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13609173}
+  - component: {fileID: 13609174}
+  m_Layer: 5
+  m_Name: Level Complete Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &13609173
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13609172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579507902}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 70.31, y: -105.25}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &13609174
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13609172}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 542b4582c4fa940d88358e2415de3713, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &13970752
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +818,138 @@ MonoBehaviour:
   clueNumber: {fileID: 394640345}
   direction: right
   number: 2
+--- !u!1 &121261017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 121261018}
+  - component: {fileID: 121261019}
+  m_Layer: 5
+  m_Name: Cell Change Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &121261018
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121261017}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579507902}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 70.31, y: -105.25}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &121261019
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121261017}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2cf21f32f7bb64fc8984a4cde6306737, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &136912331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,6 +1394,8 @@ MonoBehaviour:
   cellButton: {fileID: 262132258}
   cellNumber: {fileID: 1331297492}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: fourth
   column: 2
 --- !u!1 &272592918
@@ -1345,6 +1611,8 @@ MonoBehaviour:
   cellButton: {fileID: 279498456}
   cellNumber: {fileID: 1476541644}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: fourth
   column: 3
 --- !u!1 &289272966
@@ -1481,8 +1749,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 89a096a22cff1419bb7241bfb5af6db7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2014,6 +2282,8 @@ MonoBehaviour:
   cellButton: {fileID: 464972869}
   cellNumber: {fileID: 1825024867}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: third
   column: 3
 --- !u!1 &510864732
@@ -2317,6 +2587,8 @@ MonoBehaviour:
   cellButton: {fileID: 524995652}
   cellNumber: {fileID: 598702254}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: first
   column: 3
 --- !u!1 &534628520
@@ -2681,6 +2953,7 @@ GameObject:
   - component: {fileID: 579507904}
   - component: {fileID: 579507903}
   - component: {fileID: 579507906}
+  - component: {fileID: 579507907}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2710,6 +2983,9 @@ RectTransform:
   - {fileID: 1017324663}
   - {fileID: 1916264827}
   - {fileID: 1442456279}
+  - {fileID: 1199346047}
+  - {fileID: 121261018}
+  - {fileID: 13609173}
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2794,6 +3070,18 @@ MonoBehaviour:
   gridSize: {fileID: 136912331}
   difficulty: {fileID: 706803710}
   levelCompleted: {fileID: 1442456278}
+--- !u!114 &579507907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579507901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d873678ce50438f8955e7100bd057b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &580816867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,6 +3300,8 @@ MonoBehaviour:
   cellButton: {fileID: 593010164}
   cellNumber: {fileID: 692022566}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: third
   column: 2
 --- !u!1 &598702254
@@ -4703,6 +4993,8 @@ MonoBehaviour:
   cellButton: {fileID: 999510290}
   cellNumber: {fileID: 726983098}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: fourth
   column: 1
 --- !u!1 &1017324662
@@ -4974,6 +5266,8 @@ MonoBehaviour:
   cellButton: {fileID: 1060046531}
   cellNumber: {fileID: 1539000510}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: first
   column: 4
 --- !u!1 &1074479676
@@ -5263,6 +5557,138 @@ MonoBehaviour:
   clueNumber: {fileID: 1529403657}
   direction: left
   number: 3
+--- !u!1 &1199346046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199346047}
+  - component: {fileID: 1199346048}
+  m_Layer: 5
+  m_Name: Hints On Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1199346047
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199346046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 579507902}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 70.31, y: -105.25}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1199346048
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199346046}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bc70ab432381a4278b21d723a366c57b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1203276071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5681,6 +6107,8 @@ MonoBehaviour:
   cellButton: {fileID: 1270440721}
   cellNumber: {fileID: 1147410765}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: third
   column: 4
 --- !u!1 &1270815177
@@ -6292,6 +6720,8 @@ MonoBehaviour:
   cellButton: {fileID: 1362992457}
   cellNumber: {fileID: 257117464}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: second
   column: 3
 --- !u!1 &1406387256
@@ -6435,6 +6865,8 @@ MonoBehaviour:
   cellButton: {fileID: 1406387256}
   cellNumber: {fileID: 1692178270}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: first
   column: 2
 --- !u!1 &1442456278
@@ -6912,9 +7344,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
-    m_PressedColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+    m_NormalColor: {r: 0.8117647, g: 0.8117647, b: 0.8117647, a: 0}
+    m_HighlightedColor: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 0.6666667}
+    m_PressedColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0.6666667}
     m_DisabledColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -6991,6 +7423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintsCount: {fileID: 89392241}
+  hintsPopAudio: {fileID: 1199346048}
 --- !u!1 &1515655594
 GameObject:
   m_ObjectHideFlags: 0
@@ -7887,6 +8320,8 @@ MonoBehaviour:
   cellButton: {fileID: 1706146409}
   cellNumber: {fileID: 142045740}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: second
   column: 1
 --- !u!1 &1709629141
@@ -8174,6 +8609,8 @@ MonoBehaviour:
   cellButton: {fileID: 1713734320}
   cellNumber: {fileID: 97530391}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: second
   column: 4
 --- !u!1 &1720917470
@@ -8389,6 +8826,8 @@ MonoBehaviour:
   cellButton: {fileID: 1751888524}
   cellNumber: {fileID: 1938039655}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: second
   column: 2
 --- !u!1 &1767785710
@@ -9214,6 +9653,8 @@ MonoBehaviour:
   cellButton: {fileID: 2008305665}
   cellNumber: {fileID: 464198564}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: third
   column: 1
 --- !u!1 &2016805493
@@ -9434,6 +9875,8 @@ MonoBehaviour:
   cellButton: {fileID: 2040604922}
   cellNumber: {fileID: 1446863745}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: fourth
   column: 4
 --- !u!1 &2051882768
@@ -9870,6 +10313,8 @@ MonoBehaviour:
   cellButton: {fileID: 2111663185}
   cellNumber: {fileID: 1681764124}
   levelComplete: {fileID: 1442456278}
+  levelCompleteAudio: {fileID: 13609174}
+  cellPopAudio: {fileID: 121261019}
   row: first
   column: 1
 --- !u!1 &2113477616

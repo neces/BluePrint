@@ -135,18 +135,23 @@ public class GenerateLevel : MonoBehaviour
         int direction;
         int number;
         int totalClues = 0;
+        int revealEmptyCells = 0;
         Array.Clear(clues, 0, clues.Length);
+        Array.Clear(empty, 0, clues.Length);
 
         switch (difficulty)
         {
             case "Easy":
                 totalClues = size * 2 + 2;
+                revealEmptyCells = Random.Range(5, 7);
                 break;
             case "Medium":
                 totalClues = size * 2;
+                revealEmptyCells = Random.Range(3, 5);
                 break;
             case "Hard":
                 totalClues = size * 2 - 2;
+                revealEmptyCells = Random.Range(1, 3);
                 break;
         }
 
@@ -156,6 +161,14 @@ public class GenerateLevel : MonoBehaviour
             number = Random.Range(0, size);
 
             clues[direction, number] = ClueNumber(direction, number);
+        }
+
+        for (int i = revealEmptyCells; revealEmptyCells >= 0; revealEmptyCells--)
+        {
+            direction = Random.Range(0, size);
+            number = Random.Range(0, size);
+
+            empty[direction, number] = grid[direction, number];
         }
     }
 

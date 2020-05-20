@@ -8,9 +8,8 @@ public class Map : MonoBehaviour
 {
 
     public static string[] mapUnlocked;
-    public static int levelsCompleted = 0;
 
-    public static void initialiseMap()
+    public static void InitialiseMap()
     {
         if (!File.Exists("Assets/Levels/Map.txt"))
         {
@@ -27,39 +26,7 @@ public class Map : MonoBehaviour
         mapUnlocked = fileContents.Split(","[0]);
     }
 
-    public static void updateMap()
-    {
-        // if the story here go scenes as well, otherwise put just in one if
-        if (levelsCompleted == 3)
-        {
-            mapUnlocked[levelsCompleted] = "1";
-            mapUnlocked[levelsCompleted + 1] = "1";
-            mapUnlocked[levelsCompleted + 2] = "1";
-        }
-
-        else if (levelsCompleted == 6)
-        {
-            mapUnlocked[levelsCompleted] = "1";
-            mapUnlocked[levelsCompleted + 1] = "1";
-            mapUnlocked[levelsCompleted + 2] = "1";
-        }
-
-        else if (levelsCompleted == 9)
-        {
-            mapUnlocked[levelsCompleted] = "1";
-            mapUnlocked[levelsCompleted + 1] = "1";
-            mapUnlocked[levelsCompleted + 2] = "1";
-        }
-
-        else if (levelsCompleted == 12)
-        {
-            mapUnlocked[levelsCompleted] = "1";
-            mapUnlocked[levelsCompleted + 1] = "1";
-            mapUnlocked[levelsCompleted + 2] = "1";
-        }
-    }
-
-    public static void saveMap()
+    public static void SaveMap()
     {
         var writeMap = string.Join(",", mapUnlocked); ;
         File.WriteAllText("Assets/Levels/Map.txt", writeMap);
@@ -86,7 +53,7 @@ public class Map : MonoBehaviour
         }
     }
 
-    public void backButton()
+    public void BackButton()
     {
         SceneManager.LoadScene("Menu");
     }

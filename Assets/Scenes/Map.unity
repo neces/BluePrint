@@ -2609,7 +2609,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1071451531}
-        m_MethodName: backButton
+        m_MethodName: BackButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3302,6 +3302,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b04eb50bd2f0449eb7fc699dddba624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  story: {fileID: 0}
+  unlimited: {fileID: 0}
+  tutorial: {fileID: 0}
+  storyTitle: {fileID: 0}
+  unlimitedTitle: {fileID: 0}
 --- !u!114 &1071451528
 MonoBehaviour:
   m_ObjectHideFlags: 0

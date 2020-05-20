@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{41A4F486-85F6-2EB5-5AC7-B576F23373C8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CellButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Map.cs">
     <Files>
-      <File FileName="Assets/Scripts/CellButton.cs" Line="144" Column="17" IsPinned="True" />
-      <File FileName="Assets/Scripts/Menu.cs" Line="21" Column="9" />
-      <File FileName="Assets/Scripts/LevelSetUp.cs" Line="80" Column="44" />
-      <File FileName="Assets/Scripts/Hints.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/Map.cs" Line="70" Column="40" />
-      <File FileName="Assets/Scripts/Tutorial.cs" Line="9" Column="29" />
-      <File FileName="Assets/Scripts/GenerateLevel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HandleTextFile.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CellButton.cs" Line="146" Column="13" IsPinned="True" />
+      <File FileName="Assets/Scripts/Hints.cs" />
+      <File FileName="Assets/Scripts/Tutorial.cs" />
+      <File FileName="Assets/Scripts/GenerateLevel.cs" />
+      <File FileName="Assets/Scripts/HandleTextFile.cs" />
+      <File FileName="Assets/Scripts/MapButton.cs" />
+      <File FileName="Assets/Scripts/UpdateMap.cs" />
+      <File FileName="Assets/Scripts/Map.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,25 +16,17 @@
           <Node name="BluePrint" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CellButton.cs" selected="True" />
+                <Node name="Map.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="BluePrint" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f126855f-d902-4b55-b17e-3e099f40cb95" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b1423b1-d26a-46f7-a3cf-c93351446937" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

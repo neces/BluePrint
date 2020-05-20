@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\MapButton.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Tutorial.cs" />
+    <Compile Include="Assets\Scripts\UpdateMap.cs" />
     <None Include="Assets\Levels\1.txt" />
     <None Include="Assets\Levels\Map.txt" />
     <None Include="Assets\Levels\11.txt" />

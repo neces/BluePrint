@@ -5,10 +5,15 @@ using UnityEngine.UI;
 
 public class CellButton : MonoBehaviour
 {
+    public delegate void MapDelegate();
+    public static event MapDelegate UnlockLevels = delegate { };
 
     public GameObject cellButton;
     public GameObject cellNumber;
     public GameObject levelComplete;
+
+    public AudioSource levelCompleteAudio;
+    public AudioSource cellPopAudio;
 
     public string row;
     public int column;
@@ -46,6 +51,7 @@ public class CellButton : MonoBehaviour
         string cellValue = cellNumber.GetComponent<Text>().text;
         int gridSize = int.Parse(HandleTextFile.size);
 
+        cellPopAudio.Play();
         if (Hints.hintsOn == true)
         {
             string value = GetSolvedCell(row, column);
@@ -61,7 +67,6 @@ public class CellButton : MonoBehaviour
             if (cellValue != value)
             {
                 LevelSetUp.cellsCompleted++;
-                Debug.Log(LevelSetUp.cellsCompleted);
             }
 
             if (Hints.hints == 0)
@@ -129,13 +134,12 @@ public class CellButton : MonoBehaviour
             if (cellValue == GetSolvedCell(row, column))
             {
                 LevelSetUp.cellsCompleted--;
-                Debug.Log(LevelSetUp.cellsCompleted);
+
             }
 
             else if (cellNumber.GetComponent<Text>().text == GetSolvedCell(row, column))
             {
                  LevelSetUp.cellsCompleted++;
-                 Debug.Log(LevelSetUp.cellsCompleted);
             }
         }
 
@@ -144,16 +148,17 @@ public class CellButton : MonoBehaviour
             if (level == 100)
             {
                 levelComplete.SetActive(true);
+                levelCompleteAudio.Play();
                 Hints.hints = Hints.hints + 2;
             }
 
             else
             {
                 Map.mapUnlocked[level - 1] = "2";
-                Map.levelsCompleted++;
-                Map.updateMap();
-                Map.saveMap();
+                UnlockLevels();
+                //Map.SaveMap();
                 levelComplete.SetActive(true);
+                levelCompleteAudio.Play();
                 LevelSetUp.cellsCompleted = 0;
                 Hints.hints = Hints.hints + 2;
             }
@@ -162,6 +167,7 @@ public class CellButton : MonoBehaviour
         if (HandleTextFile.lvlName == "102" && LevelSetUp.cellsCompleted == 8)
         {
             levelComplete.SetActive(true);
+            levelCompleteAudio.Play();
         }
     }
 

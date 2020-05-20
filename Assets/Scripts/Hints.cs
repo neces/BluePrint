@@ -9,6 +9,7 @@ public class Hints : MonoBehaviour
     public static int hints = 3;
 
     public static bool hintsOn = false;
+    public AudioSource hintsPopAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -30,5 +31,6 @@ public class Hints : MonoBehaviour
     public void HintsOn()
     {
         hintsOn = true;
+        hintsPopAudio.Play();
     }
 }

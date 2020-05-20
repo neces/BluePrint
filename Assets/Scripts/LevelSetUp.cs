@@ -77,7 +77,7 @@ public class LevelSetUp : MonoBehaviour
 
         else if (HandleTextFile.lvlName == "102")
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Map");
         }
 
         else
